@@ -20,5 +20,4 @@ O(logN)
 # 検証
 
 ## java
-
-なし
+[AtCoder - abc077_C](https://atcoder.jp/contests/abc077/submissions/5086235)
