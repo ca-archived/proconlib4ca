@@ -21,8 +21,15 @@
 
 [template.cpp](../lib/cpp/template.cpp)
 
+## python
+
+[union_find.py](../lib/python/union_find.py)
+
 # 検証
 
 ## java
 
 なし
+
+## python
+[AtCoder - abc126 E](https://atcoder.jp/contests/abc126/submissions/5488956)
