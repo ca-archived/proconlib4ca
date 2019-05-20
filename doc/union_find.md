@@ -1,15 +1,16 @@
 # 解説
 
-以下のUnion-Findアルゴリズムを使用できるDisjointSet (UnionFind木)データ構造
-- same(x, y): xとyが同じ木に属するか判定
-- unite(x, y): xが属する木とyが属する木を合併する
-- find(x): xが属する木の根を返す
+以下の Union-Find アルゴリズムを使用できる DisjointSet (UnionFind 木)データ構造
+
+- same(x, y): x と y が同じ木に属するか判定
+- unite(x, y): x が属する木と y が属する木を合併する
+- find(x): x が属する木の根を返す
 
 # 計算量
 
-要素数 *N* = DisjointSet.size に対してO(*α*(*N*))
+要素数 _N_ = DisjointSet.size に対して O(_α_(_N_))
 
-※ *α*(*n*)はアッカーマン関数*A*(*n*, *n*)の逆関数。ならし計算量
+※ _α_(_n_)はアッカーマン関数*A*(_n_, _n_)の逆関数。ならし計算量
 
 # コード
 
@@ -19,7 +20,7 @@
 
 ## c++
 
-[template.cpp](../lib/cpp/template.cpp)
+[template.cpp](../lib/cpp/union_find.cpp)
 
 ## python
 
@@ -31,5 +32,10 @@
 
 なし
 
+## c++
+
+[AtCoder - abc097 D](https://atcoder.jp/contests/abc097/submissions/5489399)
+
 ## python
+
 [AtCoder - abc126 E](https://atcoder.jp/contests/abc126/submissions/5488956)
