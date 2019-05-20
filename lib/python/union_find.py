@@ -33,19 +33,3 @@ class UnionFind:
 
         self._parents[x] = self.find(self._parents[x])
         return self._parents[x]
-
-
-
-n, m = map(int, input().split())
-
-uf = UnionFind(n)
-
-for _ in range(m):
-    x, y, _ = map(int, input().split())
-    uf.unite(x - 1, y - 1)
-
-s = set()
-for i in range(0, n):
-    s.add(uf.find(i))
-
-print(len(s))
