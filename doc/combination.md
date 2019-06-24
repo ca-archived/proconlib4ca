@@ -11,7 +11,7 @@
 
 ## java
 
-なし
+[Combination.java](../lib/java/Combination.java)
 
 ## c++
 
@@ -25,7 +25,7 @@
 
 ## java
 
-なし
+[AtCoder - abc034_C](https://atcoder.jp/contests/abc034/submissions/6105978)
 
 ## c++
 
