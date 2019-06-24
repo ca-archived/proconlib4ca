@@ -8,8 +8,6 @@
 *array*の要素数 _N = |array|_ に対して
 O(logN)
 
-なし
-
 # コード
 
 ## java
@@ -20,8 +18,20 @@ O(logN)
 
 標準ライブラリの `std::binary_search()` , `std::lower_bound()` , `std::upper_bound()` を使うことができる。
 
+## python
+
+なし
+
 # 検証
 
 ## java
 
 [AtCoder - abc077_C](https://atcoder.jp/contests/abc077/submissions/5086235)
+
+## c++
+
+なし
+
+## python
+
+なし

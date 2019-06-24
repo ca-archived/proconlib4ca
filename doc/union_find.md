@@ -16,11 +16,11 @@
 
 ## java
 
-[Template.java](../lib/java/Template.java)
+なし
 
 ## c++
 
-[template.cpp](../lib/cpp/union_find.cpp)
+[union_find.cpp](../lib/cpp/union_find.cpp)
 
 ## python
 
