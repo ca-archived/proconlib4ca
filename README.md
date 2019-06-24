@@ -6,3 +6,5 @@ atcoder-zemi で利用する競技プログラミング用ライブラリ置き�
 
 - [テンプレート](./doc/template.md)
 - [二分探索](./doc/binary_search.md)
+- [union_find](./doc/union_find.md)
+- [combination](./doc/combination.md)
