@@ -17,8 +17,14 @@
 
 ## python
 
+[combination.py](../lib/python/combination.py)
+
 # 検証
 
 ## c++
 
 [AtCoder - abc034_C](https://abc034.contest.atcoder.jp/submissions/6095811)
+
+## python
+
+[AtCoder - abc034_C](https://atcoder.jp/contests/abc034/submissions/6105635)
