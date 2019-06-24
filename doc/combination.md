@@ -11,6 +11,8 @@
 
 ## java
 
+なし
+
 ## c++
 
 [combination.cpp](../lib/cpp/combination.cpp)
@@ -20,6 +22,10 @@
 [combination.py](../lib/python/combination.py)
 
 # 検証
+
+## java
+
+なし
 
 ## c++
 
