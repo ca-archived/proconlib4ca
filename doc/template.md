@@ -16,6 +16,10 @@
 
 [template.cpp](../lib/cpp/template.cpp)
 
+## python
+
+[template.py](../lib/python/template.py)
+
 # 検証
 
 ## java
