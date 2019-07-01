@@ -21,4 +21,6 @@ class Combination:
         return self._modpow(x, self.MOD - 2)
 
     def combination(self, n: int, k: int) -> int:
+        if n < k:
+            return 0
         return self.fac[n] * self._modinv(self.fac[k]) % self.MOD * self._modinv(self.fac[n - k]) % self.MOD
