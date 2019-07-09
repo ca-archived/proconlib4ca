@@ -26,6 +26,6 @@ public class Combination {
     }
 
     public long nck(int n, int k) {
-        return facts[n] * (inv(facts[n - k]) * inv(facts[k]) % mod) % mod;
+        return n < k ? 0 : facts[n] * (inv(facts[n - k]) * inv(facts[k]) % mod) % mod;
     }
 }
