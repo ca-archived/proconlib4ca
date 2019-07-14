@@ -1,0 +1,72 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+figure {
+  margin: 1em 0px;
+}
+
+/*タブのスタイル*/
+.tab-item {
+  // langの数でわる
+  width: calc(100% / 3);
+  height: 50px;
+  background-color: whitesmoke;
+  font-size: 16px;
+  float: left;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tab-item:hover {
+  opacity: 0.75;
+}
+
+/*ラジオボタンを全て消す*/
+input[name="tab-alg-item"] {
+  display: none;
+}
+
+input[name="tab-ver-item"] {
+  display: none;
+}
+
+
+/*タブ切り替えの中身のスタイル*/
+.lang-algorithm-content, .lang-verify-content {
+  display: none;
+  clear: both;
+  overflow: hidden;
+  background-color: whitesmoke;
+}
+
+/*選択されているタブのコンテンツのみを表示*/
+#cpp-alg:checked ~ #cpp-alg-content,
+#java-alg:checked ~ #java-alg-content,
+#python-alg:checked ~ #python-alg-content {
+  display: block;
+}
+
+#cpp-ver:checked ~ #cpp-ver-content,
+#java-ver:checked ~ #java-ver-content,
+#python-ver:checked ~ #python-ver-content {
+  display: flex;
+  align-items: center;
+}
+
+/*選択されているタブのスタイルを変える*/
+.lang-algorithm input:checked + .tab-item, .lang-verify input:checked + .tab-item {
+  background-color: #159957;
+  color: #fff;
+}
+
+.lang-ver-by {
+  flex: 2;
+}
+
+.lang-ver-detail {
+  flex: 3;
+}

@@ -1,0 +1,58 @@
+---
+layout: default
+custom_css: true
+---
+
+<div class="content">
+    {{ content }}
+</div>
+<h1>コード</h1>
+<div class="lang-algorithm">
+    {% for lang in page.langs %}
+    <input id="{{ lang.name }}-alg" type="radio" name="tab-alg-item" checked>
+    <label class="tab-item" for="{{ lang.name }}-alg">{{ lang.name }}</label>
+    {% endfor %}
+    {% for lang in page.langs %}
+    {% if lang.name=="java" %}
+    <div class="lang-algorithm-content" id="java-alg-content">
+{% highlight java %}
+{% include {{ lang.code_path }} %}
+{% endhighlight %}
+    </div>
+    {% endif %}
+    {% if lang.name=="cpp" %}
+    <div class="lang-algorithm-content" id="cpp-alg-content">
+{% highlight cpp %}
+{% include {{ lang.code_path }} %}
+{% endhighlight %}
+    </div>
+    {% endif %}
+    {% if lang.name=="python" %}
+    <div class="lang-algorithm-content" id="python-alg-content">
+{% highlight python %}
+{% include {{ lang.code_path }} %}
+{% endhighlight %}
+    </div>
+    {% endif %}
+    {% endfor %}
+</div>
+
+<h1>検証</h1>
+<div class="lang-verify">
+    {% for lang in page.langs %}
+    <input id="{{ lang.name }}-ver" type="radio" name="tab-ver-item" checked>
+    <label class="tab-item" for="{{ lang.name }}-ver">{{ lang.name }}</label>
+    {% endfor %}
+    {% for lang in page.langs %}
+    <div class="lang-verify-content" id="{{ lang.name }}-ver-content">
+        <div class="lang-ver-by">
+            {% if lang.verify_by %}
+            {{ lang.verify_by }}
+            {% endif %}
+        </div>
+        <div class="lang-ver-detail">
+            <a href="{{ lang.verify_url }}" target="_blank">{{ lang.verify_at }}</a>
+        </div>
+    </div>
+    {% endfor %}
+</div>
