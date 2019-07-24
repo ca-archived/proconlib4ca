@@ -1,3 +1,14 @@
+---
+layout: algorithm
+langs:
+  - name: python
+    code_path: python/dijkstra.py
+    verify_by: nyama
+    verify_at: AtCoder - abc035 D
+    verify_url: https://atcoder.jp/contests/abc035/submissions/6235729
+---
+
+
 # 解説
 
 グラフ上の２頂点間の最短経路を求めるアルゴリズム。
@@ -7,31 +18,3 @@
 # 計算量
 
 グラフの頂点数を N 、辺数を M として O((N + M) logN)
-
-# コード
-
-## java
-
-なし
-
-## c++
-
-なし
-
-## python
-
-[dijkstra.py](../lib/python/dijkstra.py)
-
-# 検証
-
-## java
-
-なし
-
-## c++
-
-なし
-
-## python
-
-[AtCoder - abc035 D](https://atcoder.jp/contests/abc035/submissions/6235729)
