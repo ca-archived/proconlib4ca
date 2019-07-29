@@ -1,13 +1,17 @@
 ---
 layout: algorithm
 langs:
+  - name: cpp
+    code_path: cpp/segment_tree.cpp
+    verify_by: muras
+    verify_at: AOJ - Range Query - Range Minimum Query (RMQ)
+    verify_url: http://judge.u-aizu.ac.jp/onlinejudge/review.jsp?rid=3779974#1
   - name: python
     code_path: python/segment_tree.py
     verify_by: nyama
     verify_at: AOJ - Range Query - Range Minimum Query (RMQ)
     verify_url: http://judge.u-aizu.ac.jp/onlinejudge/review.jsp?rid=3780056#1
 ---
-
 
 # 解説
 
@@ -20,4 +24,4 @@ RMQ (Range Minimum Query) のような問題を解決するのに適したデー
 要素数を N として
 
 update: log N
-query:  log N
+query: log N
