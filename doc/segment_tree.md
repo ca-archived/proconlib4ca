@@ -5,7 +5,7 @@ langs:
     code_path: cpp/segment_tree.cpp
     verify_by: muras
     verify_at: AOJ - Range Query - Range Minimum Query (RMQ)
-    verify_url: http://judge.u-aizu.ac.jp/onlinejudge/review.jsp?rid=3779974#1
+    verify_url: http://judge.u-aizu.ac.jp/onlinejudge/review.jsp?rid=3780147#1
   - name: python
     code_path: python/segment_tree.py
     verify_by: nyama
