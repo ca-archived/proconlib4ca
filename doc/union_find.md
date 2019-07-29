@@ -11,6 +11,11 @@ langs:
     verify_by: nyama
     verify_at: AtCoder - abc126 E
     verify_url: https://atcoder.jp/contests/abc126/submissions/5488956
+  - name: java 
+    code_path: java/UnionFind.java
+    verify_by: usagi4430
+    verify_at: AtCoder - abc097 D
+    verify_url: https://atcoder.jp/contests/abc097/submissions/6597228
 ---
 
 # 解説
