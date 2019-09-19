@@ -4,8 +4,8 @@ langs:
   - name: python
     code_path: python/compress.py
     verify_by: nyama
-    verify_at: -
-    verify_url: -
+    verify_at: "-"
+    verify_url: "-"
 ---
 
 # 解説
