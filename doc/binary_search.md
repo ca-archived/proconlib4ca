@@ -17,3 +17,19 @@ langs:
 
 *array*の要素数 _N = |array|_ に対して
 O(logN)
+
+# 使用例
+
+```
+array = [0, 1, 1, 3, 4, 4, 6] に対し、
+
+lowerBound(array, -1): 0
+lowerBound(array, 1): 1
+lowerBound(array, 2): 3
+lowerBound(array, 7): 7
+=========================
+upperBound(array, 7): 7
+upperBound(array, 4): 6
+upperBound(array, 2): 3
+upperBound(array, -1): 0
+```
