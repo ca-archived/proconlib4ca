@@ -12,3 +12,4 @@ atcoder-zemi で利用する競技プログラミング用ライブラリ置き�
 - [segment_tree](./doc/segment_tree.md)
 - [compress](./doc/compress.md)
 - [bellman_ford](./doc/bellman_ford.md)
+- [rolling_hash](./doc/rolling_hash.md)
